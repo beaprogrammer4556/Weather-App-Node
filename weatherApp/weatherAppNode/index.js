@@ -10,7 +10,6 @@ const replaceval = (tempval,orgval) =>{
   temperature = temperature.replace("{%country%}",orgval.location.country);
   temperature = temperature.replace("{%tempStatus%}",orgval.current.condition.text);
   return temperature;
-  // let temperature = tempval.replace("{%tempval%}",orgval.main.temp);
   // temperature = temperature.replace("{%tempmin%}",orgval.main.temp_min);
   // temperature = temperature.replace("{%tempmax%}",orgval.main.temp_max);
   // temperature = temperature.replace("{%location%}",orgval.name);
